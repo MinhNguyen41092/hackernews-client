@@ -14,3 +14,8 @@ export const HeaderWrapper = styled.div`
   flex-direction: row;
   font-size: 10px;
 `
+
+export const RankContainer = styled.div`
+  margin: 0px 5px;
+  color: #828282;
+`
