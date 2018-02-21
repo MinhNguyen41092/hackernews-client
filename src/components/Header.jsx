@@ -1,5 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {HeaderWrapper,
+        RankContainer,
+        Title,
+        SourceContainer,
+        SourceLink} from './Styles';
+import * as utils from "../utils/helper";
 
 export default function Header(props) {
   let sourceUrl = utils.getSourceUrl(props.url);
